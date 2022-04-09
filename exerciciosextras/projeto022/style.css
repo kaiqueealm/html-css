@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+body{
+    background-image: linear-gradient(to right); 
+    color: #3D3D3D, #217373;
+}
+
+main{
+
+}
+
+#principal{
+    font-family: 'Raleway', sans-serif;
+    color: #173540;
+}
+
+.a{
+    font-family: 'Montserrat', sans-serif;
+    color: #217373;
+}
+
+.b{
+    font-family: 'Montserrat', sans-serif;
+    color: #173540;
+}

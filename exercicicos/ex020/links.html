@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALISADOS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = clildren
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red; /* coloca cor nos links */
+            text-decoration: none; /* tirar a barra de baixo dos links*/
+            font-weight: bolder; /* para deixar em negrito*/
+        }
+
+        a:visited{
+            color: darkblue;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline; /* quando eu passar o mouse em cima quero sumblinhar */
+        }
+
+        a:active{
+            color: blueviolet;/* link ativo e quando passa o mouse em cima mudar de cor pra mostra que vc clicou no site */
+               }
+        .especial{
+            background-color: aqua; /* quando quiser colocar cor so na classe */
+        }
+        
+        .especial::before{
+            content: '⇒'; /* para colocar coisas antes do link tipo simbolos */
+        }
+        .especial::after{
+            content: '⇐'; /* colocar simbolos usando classes no link tambem da */
+        }
+        </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório github</a></li>
+        <li><a href="https://youtube.com/cursosemvideo/" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Sites do cursosemvideo</a></li>
+    </ul>
+</body>
+</html>

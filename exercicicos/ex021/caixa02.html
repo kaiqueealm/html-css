@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping Tags</title> 
+    <style>
+        /* border-radius: 10px;border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; voçê consegui configurar cada canto da borda */
+
+        body{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        head{
+            background-color: rgb(95, 177, 13);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1{
+            box-shadow: inset 2px 1px 14px 5px  black;  /* inset sombra por dentro*/
+        }
+
+        nav{
+            background-color: chocolate;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /* outset sombra por fora */
+        }
+
+        nav{
+            text-decoration: none;
+            color: aqua;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 9px black;
+        }
+        article{
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: beige;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <head> <!--cabesalho -->
+        <h1> Meu site</h1>
+        <nav><!--e uma tag de links-->
+            <a href="#">link</a> <!---->
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </head>
+    <main><!-- conteudo principal-->
+        <section id="esportes"><!--pode ser assunnto politica, futebol etc-->
+            <p>Esporetes Politica Tecnologia</p>
+        </section >
+        <section id="noticias">
+            <article> <!-- artigos-->
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam voluptatum temporibus, inventore facere nobis nemo. Odio, libero ipsa! Veritatis error odio dolore quaerat pariatur soluta! Doloremque ipsa veniam quia.</p>
+                <aside>
+                    <p>Artigo escrito por jose da siva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

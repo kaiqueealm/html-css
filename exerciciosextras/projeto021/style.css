@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Mukta:wght@800&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right, #49A9F2, #004070);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1#principal{
+    color: #006ABD;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Mukta', sans-serif;
+    color: #0088F0;
+    text-align: left;
+ }
+
+.a{
+    font-family: 'Oswald', sans-serif;
+    color: #4ab1ffec;
+}
+
+.b{
+    font-family: 'Oswald', sans-serif;
+    color: #4ab1ffec;
+}
+
+.c{
+    font-family: 'Oswald', sans-serif;;
+    color: #4ab1ffec;
+    
+}
+
+.d{
+    color: #5899EE;
+}
+
+.e{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(37, 35, 35);
+}
