@@ -56,7 +56,7 @@ section{
     line-height: 2em; /*espaçamento entre linhas */
     padding-left: 30px; /* colocar um polco mais pro lado todas as letras*/
     font-family: var(--font3);
-    font-size: 5vw; /* pocionar conforme a tela*/
+    font-size: 3.5vw; /* pocionar conforme a tela*/
 }
 
 section.normal{
@@ -70,7 +70,7 @@ section.imagem{
 }
 
 section.imagem>p{
-    width: 400px;
+    display: inline-block; /* vai transforma a caixa que se adapita ao tamanho do conteudo*/
     background-color: rgba(6, 6, 6, 0.516); /* todo paragrafo que estiver dentro de imagem tera uma caixa preta*/
 }
 
