@@ -11,16 +11,26 @@
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center ; /* posicionar a imagem no meio*/
-            background-repeat: repeat-y; /* para nao repetir a imagem*/
-            background-size: cover /* background-size ele aceita tanto o valor auto que e deixar o navegador se virar para exibir a imagem pode utilizar tambem to manho fixo como em porcentagem de tela exemplo 100% 100% ou pode utilizar tambem o cover ele vai fazer cortes mais vai prencher e tela inteira*/
+            background-repeat: no-repeat; /* para nao repetir a imagem*/
+            background-size: cover ;/* background-size ele aceita tanto o valor auto que e deixar o navegador se virar para exibir a imagem pode utilizar tambem to manho fixo como em porcentagem de tela exemplo 100% 100% ou pode utilizar tambem o cover ele vai fazer cortes mais vai prencher e tela inteira*/
+            background-attachment: fixed;/* fixa o conteudo main para so rola o main nao o site todo*/
+
+            /* short - background
+                sempre vai ser nessa sequencia
+                color > image> position> repeat> {size}> attachment
+                sp não funciona ainda o background size mais funcionara embreve
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px; /* para tornar mais responsivo*/
             padding: 10px;
             margin: auto;
             border-radius: 1px solid darkblue;
             border-radius: 15px;
+            
         }
     </style>
 </head>
