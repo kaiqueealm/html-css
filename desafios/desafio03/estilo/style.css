@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header> h1{
+    padding-top: 50px;
+    font-variant: small-caps; /* pode deixar tambem em letra maiuscula*/
+    /*text-transform: uppercase;  colocar tudo em letra maiuscula*/
+}
+
+header> p{
+    padding-bottom: 50px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none; /* tirar o sumblinhado do link*/
+    font-weight: bolder; /* deixar em negrito*/
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh; /* 10% da altura da tela*/
+    padding-bottom: 10vh;
+    line-height: 2em; /*espaçamento entre linhas */
+    padding-left: 30px; /* colocar um polco mais pro lado todas as letras*/
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+section.imagem>p{
+    width: 400px;
+    background-color: rgba(6, 6, 6, 0.516); /* todo paragrafo que estiver dentro de imagem tera uma caixa preta
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
