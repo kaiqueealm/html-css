@@ -56,7 +56,11 @@ section{
     line-height: 2em; /*espaçamento entre linhas */
     padding-left: 30px; /* colocar um polco mais pro lado todas as letras*/
     font-family: var(--font3);
-    font-size: 3.5vw; /* pocionar conforme a tela*/
+    font-size: 4vw; /* pocionar conforme a tela*/
+}
+
+section> p{
+   padding-bottom: 2em;
 }
 
 section.normal{
@@ -67,11 +71,26 @@ section.normal{
 section.imagem{
     background-color: rgb(52, 52, 52);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.292); /* para fazer uma sombra interna*/
+    background-attachment: fixed; /* pata fixar a imagem */
 }
 
 section.imagem>p{
     display: inline-block; /* vai transforma a caixa que se adapita ao tamanho do conteudo*/
+    padding: 5px;
     background-color: rgba(6, 6, 6, 0.516); /* todo paragrafo que estiver dentro de imagem tera uma caixa preta*/
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover; /*para ficar melhor em todos os angulos de ver*/
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;/*para ficar melhor em todos os angulos de ver*/
 }
 
 footer{
